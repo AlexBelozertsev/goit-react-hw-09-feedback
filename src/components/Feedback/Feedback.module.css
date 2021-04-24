@@ -1,0 +1,38 @@
+.Feedback {
+  margin: 40px;
+  width: 400px;
+  padding: 10px;
+  border: 1px solid teal;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.Feedback__bar > button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  background-color: yellow;
+  width: calc(100% / 4);
+  margin: 5px;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 2px 2px 1px rgb(0 128 128 / 0.5);
+}
+.Feedback__bar > button:first-child {
+  background-color: green;
+  color: #fff;
+}
+.Feedback__bar > button:last-child {
+  background-color: red;
+  color: #fff;
+}
+.Feedback__bar > button:hover {
+  box-shadow: 2px 4px 4px 2px rgb(0 128 128 / 0.8);
+}
+.statistic {
+  list-style: none;
+  text-align: left;
+}

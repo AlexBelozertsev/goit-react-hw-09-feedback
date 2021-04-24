@@ -1,0 +1,7 @@
+.AppBar {
+  display: flex;
+  justify-content: center;
+  min-height: 80px;
+  background-color: rgb(190, 215, 230);
+  border-bottom: 1px solid teal;
+}
